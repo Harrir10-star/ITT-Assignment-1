@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #00cc66;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #6699ff;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #6699ff;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #6699ff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Assignment 1 My Profile Rob Harris</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+<a>
+      <a href="Index.html"</a>
+      <li>Personal Information</li>
+      <a href="WhyIT.html"</a>
+      <li>Why IT</li>
+      <a href="IdealJob.html"</a>
+      <li>Ideal Job</li>
+      <a href="PersonalProfile.html"</a>
+      <li>Personal Profile</li>
+      <a href="ProjectIdea"</a>
+      <li>Project Idea</li>
+      <a href="References"</a>
+      <li>References</li>
+</a>
+
+
+    </ul>
+  </body>
+  </div>
+  <body>
+
+
+  <div class="col-6 col-s-9">
+    <h1>Personal Information</h1>
+    <p>My interest in IT started at an early age. In the mid 80’s my family got it’s first Apple computer, purchased from the local Tandy. In 1988 I purchased my own computer, an Amiga, it was mainly for school although I had done my research and at the time it has the best games – to take over from the Commodore 64. In year 12 I completed Computer Science. It was without doubt my favourite subject.<p>
+    <p>After school I went straight into the workforce – a big four bank. My intention was to only stay there a sort period of time while I worked out what I wanted to do with my life. Through the jobs I had and there were many I was constantly using computers and being exposed to technology on a daily basis. When I joined we mainly had green screens, in the early 90’s I was one of the first to move to a Lotus notes due to having international requirements in my job. In the early 2000’s I moved into a training role and dabbled in HTML producing a repository for our training resources. Having shown an aptitude for technology I was selected to project managed the organisations first a web-based online learning module partnering with a vendor during this period. </p>
+    <p>In 2007 I moved into Risk Management, initially in the Retail arm of the business, however a role came up that supported the Digital & Direct (Call Centres) business. One of the key aspects that drew me to this role was the external fraud that was occurring. In my Retail role I was exposed to a customer that had been defrauded close to $500K via social engineering. Our internet banking was being targeted at the time and my experiences in the past held me in a good position to support this business. In the early days there was no second factor authentication a key control identified to curb the fraud levels. I was part of the team that assessed the risk and determined the controls to put in place. There were a number of options, including various physical tokens, however we settled on SMS. It turned out to be a sensational success reducing the online losses from over a $1M a month to $20K a month within 3 months of its implementation.<p>
+    <p>During this time, I worked on the eSecurity strategy for the organisation, which required looking at the people, process and technology as well as anticipating where things were going and what the business case would needed to cover e.g. the first iPhone had just been released and we had adapted our Card fraud capability to capture Internet banking. I had a fair bit of exposure to the security and fraud aspects of the customer facing applications and the end to end nature of how technology was exploited. From Man in the browse (MITB) type exploits that started to bypass our SMS security functionality.</p>
+    <br>
+    <br>
+    <p>I supported this business for a number of years from a risk management perspective, while not having any formal qualification or background in IT. During this time, we were seeing a rapid increase in changes in technology.  The team I joined in 2007 had approximately 50 people, there was no mobile banking at this point. So, through the next 10 years I was part of the implementation of many platform implementations, changes, features and many ups (release of the current Nab mobile app) and downs (catastrophic system failures). When I moved on from Digital there were over 500 people and Agile had taken over from waterfall in every project. <p>
+    <p>Things were rapidly changing,  we commenced a program of work to refresh the Web based internet banking – within 6 months this was changed to Mobile led strategy due to users’ expectations and they devices they were using. This is why you will see different functionality between the Web browser version of banking apps and their app equivalent. <p>
+    <p>Here are a few key achievements with a technology element over the years:<p>
+
+      <style>
+      ul.no-bullets {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      </style>
+
+      <p>Here are a few key achievements with a technology element over the years:</p>
+      <ul>
+        <li>o	Designed Financial Crime Target Operating Model.</li>
+        <li>Implemented New Fraud Tool with APRA approvals (including Cloud submissions) and outsourced operational functions to enable scale. </li>
+        <li>Investigation into a significant conduct and fraud issues detailed at the Financial Service Royal Commission.</li>
+        <li>Proven ability to implement and develop teams:</li>
+
+      </ul>
+
+    <p>XXX<p>
+    <p>XXX<p>
+    <p>XXX</p>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <img src="family.png" alt="sri lanka">
+
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a>
+        <a href="sitemap.html"</a>
+  <p>Sitemap</p>
+</a>
+</div>
+
+</body>
+</html>
