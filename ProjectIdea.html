@@ -128,23 +128,29 @@ html {
   <body>
   <div class="col-6 col-s-9">
     <h1>Project Idea</h1>
-      <p>To be perfectly honest I didn’t do this course to get a specific role. I’m actually reasonably happy with the current field I’m in at the moment. Risk and Compliance professionals are in reasonably high demand, particularly off the back of the recent Financial Services Royal Commission. <p>
-      <p>So, the role that I have chosen is more of a hypothetical, enabling me to complete a little research to determine what I need to do to become a Security Operations Centre Manager.</p>
-      <p>I like dealing with Events and issues, tracking of threat actors and their new tactics. Oh, and it also provides the opportunity to relocate to an exotic location.<p>
-
-          <h3> Overview Personal IT Data Aggregator</h3>
-            <p>The idea is to aggregate details from a multitude of sites that a household uses. While there are sites out there that aggregate to pay bills or at least provide reminders there is nothing that is simple and meets my personal needs. Therefore, I propose to build an application that will bring together the data sets of many of the sites I need to access either to update details or keep track of the data shared.</p>
-            <p> In short the users will need to identify the sites that they will add, most likely this will require user ids and passwords (presenting a security risk). The tool will scrape the information into its data base and set it out logically for the user.</p>
-            <p>Initially I was going to leave the banks out of the equation, however upon further investigations each of the major banks has a developer portal through to APIs as part of the Open banking regulations. In addition I understand that all of the tier 2 Banks are working on their open banking offerings.</p>
-            <p>There is further scope to include, Superannuation,  however I’ve decided against this initially due to the security issues and many of the legal issues associated with a breach.</p>
+      <p>Peamble to be developed</p>
+      <h3> Overview Personal IT Data Aggregator</h3>
+            <p>The idea is to aggregate details from a multitude of sites that a household uses. In its basic form it will provide organisation or filing however the use of the data will be much, much more powerful.</p>
+            <p> While there are sites out there that aggregate to pay bills or at least provide reminders there is nothing that is simple or delivers technology that is capable of aggregating a households data. Therefore, I propose to build an application that will bring together the data sets of many of the sites I need to access either to update details or keep track of the data shared.</p>
+            <p>The users will need to identify the sites that they will add, most likely this will require user ids and passwords (presenting a security risk - scrape the information into its cloud database), or in the instance of a big 4 bank directly link to an API</p>
           <h3> Motivation</h3>
             <p>This is born from the frustration I feel when I need to locate details from a utility bill or an expense(rates, dog registration, water, electricity, gas, Citylink, myki, school fees, telephone, internet), review, update or renew my insurances (cars, caravan, house, health), renew memberships( football, basketball, gym). </p>
             <p> Some of this is held in individual sites others are just paper based. I’m sure that this is a huge issue for many households, particularly those that are time poor or poor at organisation.</p>
-            <p>and Don’t get me started on the multitude of passwords & or security mechanisms required to access.</p>
+            <p>And don’t get me started on the multitude of passwords & or security mechanisms required to access.</p>
           <h3> Description</h3>
-              <p>XXXXThis is born from the frustration I feel when I need to locate details from a utility bill or an expense(rates, dog registration, water, electricity, gas, Citylink, myki, school fees, telephone, internet), review, update or renew my insurances (cars, caravan, house, health), renew memberships( football, basketball, gym). </p>
-              <p> XXXXSome of this is held in individual sites others are just paper based. I’m sure that this is a huge issue for many households, particularly those that are time poor or poor at organisation.</p>
-              <p>XXXXXand Don’t get me started on the multitude of passwords & or security mechanisms required to access.</p>
+              <p>The way this works is very simple. A user interface that has six sections, once set up this would change to suit the user (refer landing page picture).</p>
+              <p>The user will enter details of the sites they want to link. They will need to enter the User id & password (accept Banking) of that site.</p>
+              <p>The app will then scrape the data from the site (research will need to be completed in relation to what data can be pulled – it’s likely that if we were to pull data from a site that the fields will be named differently and the information will be displayed differently – including but not limited to different measurements) and pull this back into its database.</p>
+              <p> Another option for the longer-term viability is to have arrangements with the issuer via API’s. The major banks are required to meet regulations in to open banking, in addition they are happy to partner with start-ups that have a point of difference. The tier 2 Banks are working on their open banking offerings, with different timelines to the majors. I would look to link to the banks API’s to pull the relevant information</p>
+              <p>Banking information, with household information will help with the loan &/or rent application process. All of the legitimate Information should be coming the relative sites – however the banking information will provide a further payment validation of the information represented.
+<p>It is likely that some items may need to be input manually(scanned) in order to provide a full picture. Therefore, will need to ability to do this.</P>
+  <p>Once the information has been successfully updated within the app the power will come from the ability to arrange the information in a way that is actionable. </P>
+<p>Bill amounts could be added to a budget page. We could display the details on when all are due for renewal and schedule a review period, with the information fed directly in to a compare the market or Iselect type tool. Imagine if they could bring in the details around your gas consumption – then compare the information available online and give you apples for apples comparison without you having to do the calculations. </p>
+<p>We could set up an extract that could be built to estimate the weekly/fortnightly, monthly amount required to payed and extract a feed that would be uploaded directly into a banking app or simply have a two-\ way feed to the API.</p>
+<p>There would be information pages.– as an example I.e. all the detail of the car insured – Registration, type of policy, who is insured, details of the car( make, model, badge, year, style, auto/manual, 4/6/8Cl etc.) amount covered & Listed drivers( Name, DOB, gender) what is include in the insurance, excess, age access, not registered driver </p>
+<p>Lastly there is the potential to further expand the tool to interact with other services like Superannuation, investments and reward program. However, these have not been considered as this adds an extra layer of security complexity and many of the legal issues associated with a breach.</p>
+
+
 
       <br>
 
@@ -204,10 +210,44 @@ body {
     <img src="DemoRedEnergy.png" width="232" height="462">
   </div>
 </div>
+<br>
+<div class="row">
+  <div class="column">
+    <h2>Landing Page</h2>
+    <img src="DemoUntilities.png" width="232" height="462">
+  </div>
+
+  <div class="column">
+    <h2>Utility Page</h2>
+    <img src="DemoRedEnergy.png" width="232" height="462">
+  </div>
+
+  <div class="column">
+    <h2>Provider page</h2>
+    <img src="DemoAggregator" width="232" height="462">
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column">
+    <h2>Landing Page</h2>
+    <img src="DemoBanks.png" width="232" height="462">
+  </div>
+
+  <div class="column">
+    <h2>Utility Page</h2>
+    <img src="DemoNab.png" width="232" height="462">
+  </div>
+
+  <div class="column">
+    <h2>Provider page</h2>
+    <img src="DemoAutomatedPayments" width="232" height="462">
+  </div>
+</div>
 
 </body>
     </div>
-
+<h3> Tools & Technology</h3>
     <p>It would appear from the description that the role would be involved in pitching the service offerings to prospective companies – This may be a full managed service, hybrid or setting the client up to manage internally. </p>
     <p>They also look to provide auditing services, testing, evaluation and certification services to IT security product businesses.<p>
     <p>It looks as though the manager needs to be proficient in cybersecurity practises, when not pitching to a prospective clients they would be running the operation to protect their existing clients to protect their data and infrastructure in the following areas: </p>
